@@ -2,7 +2,7 @@
 using ReppadL.Common;
 using ReppadL.Model;
 
-namespace ReppadL.Repo
+namespace ReppadL.IRepo
 {
     public interface IEmployeeRepo
     {

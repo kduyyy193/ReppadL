@@ -1,8 +1,6 @@
-﻿using System;
-using System.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using ReppadL.IRepo;
 using ReppadL.Model;
-using ReppadL.Repo;
 
 namespace ReppadL.Controllers
 {

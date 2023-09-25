@@ -1,5 +1,6 @@
 ﻿using ReppadL.Model.Data;
 using ReppadL.Repo;
+using ReppadL.IRepo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<DBContext>();
 builder.Services.AddTransient<IEmployeeRepo, EmployeeRepo>();
+builder.Services.AddScoped<IAuthorizeRepo, AuthorizeRepo>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

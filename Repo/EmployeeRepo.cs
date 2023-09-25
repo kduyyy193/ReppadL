@@ -1,6 +1,7 @@
 ﻿using System.Data;
 using Dapper;
 using ReppadL.Common;
+using ReppadL.IRepo;
 using ReppadL.Model;
 using ReppadL.Model.Data;
 
